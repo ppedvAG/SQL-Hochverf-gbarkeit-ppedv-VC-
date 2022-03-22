@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Hochverfügbarkeit", "SQL Hochverfügbarkeit\SQL Hochverfügbarkeit.ssmssqlproj", "{834A96B2-B4C6-49DD-920D-3E08278D75A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{834A96B2-B4C6-49DD-920D-3E08278D75A4}.Default|Default.ActiveCfg = Default
+		{B9DA9938-2A91-4E0A-A741-8CA161B7F709}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EA1F997-4C37-4892-939B-62AF5180889C}
+	EndGlobalSection
+EndGlobal
