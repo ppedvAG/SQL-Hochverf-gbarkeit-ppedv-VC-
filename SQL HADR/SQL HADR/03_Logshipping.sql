@@ -3,7 +3,7 @@
 
 3 Aufträge: macht immer der Agent
 
-Alles was manuell läuft, erledigt der SQL Server
+Alles was manuell läuft, erledigt der SQL Server Dienst
 
 zB Vollsicherung auf anderen Server restoren
 

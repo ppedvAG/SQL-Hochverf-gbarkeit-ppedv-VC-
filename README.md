@@ -12,4 +12,16 @@
 ## Registrierte Server
 
 # Mod 03 Windows Cluster prep..
+## iscsi Zielserver
+
+# SQL CLuster
+
+# Healthcheck Condition Level
+
+# Availability Groups
+
+# Logins übertragen
+
+# Backup sund weiter Jobs
+
 

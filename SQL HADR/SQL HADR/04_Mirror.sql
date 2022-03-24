@@ -46,7 +46,7 @@ GO
 CREATE LOGIN [SQLDOM\svcSQL] FROM WINDOWS WITH DEFAULT_DATABASE=[master]
 GO
 
-
+--ideal: per Registrierte Server..
 
 --Login für SQL Dienstkonto, da dies verwendet wird, wenn man kein dediziertes Konto angegeben hat...
 CREATE LOGIN [schulung\svcSQL] FROM WINDOWS 
@@ -57,6 +57,12 @@ GRANT CONNECT ON ENDPOINT::Spiegelung TO [SQLDOM\svcSQL]
 --evtl von beiden Seiten aus das Script ausführen
 
 USE MASTER
+
+
+use master
+
+alter database NamederDB set Parter = 'TCP://NodeTwo.SQLDOM.dom:5022'
+
 
 ALTER DATABASE Spiegelei 
  SET PARTNER = 'TCP://NodeTwo.SQLDOM.dom:5022'
